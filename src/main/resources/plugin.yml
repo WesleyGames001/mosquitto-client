@@ -1,0 +1,12 @@
+main: tk.wesleyramos.mosquittoclient.plugins.MosquittoBukkit
+
+name: mosquitto-client
+author: WesleyGames001
+version: 1.0.0
+description: an application to communicate with multiple servers
+
+commands:
+  mosquitto:
+    description: a command to administer the Mosquitto client
+    aliases:
+      - mosquittoclient

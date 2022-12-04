@@ -1,0 +1,6 @@
+main: tk.wesleyramos.mosquittoclient.plugins.MosquittoBungee
+
+name: mosquitto-client
+author: WesleyGames001
+version: 1.0.0
+description: an application to communicate with multiple servers
