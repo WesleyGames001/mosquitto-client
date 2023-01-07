@@ -54,6 +54,8 @@ public class SocketService {
     }
 
     public void disconnect() {
+        if (!this.connected) return;
+        
         try {
             this.connected = false;
             this.reader.interrupt();

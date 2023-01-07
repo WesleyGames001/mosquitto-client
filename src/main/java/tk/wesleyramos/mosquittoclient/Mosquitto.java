@@ -2,6 +2,7 @@ package tk.wesleyramos.mosquittoclient;
 
 import tk.wesleyramos.mosquittoclient.service.SocketService;
 
+// TODO: adicionar criptografia pont-a-ponta
 public class Mosquitto {
 
     private static final SocketService service = new SocketService();
